@@ -26,10 +26,10 @@
             <button id="addTip">Add a tip!</button>
             <select id="tip">
                 <option disabled>Select an option</option>
-                <option>Wow! 30%💗</option>
-                <option>Good Service! 20%💙</option>
-                <option>It was OK! 10% 😃</option>
-                <option selected>No Tip!🙅</option>
+                <option value="0.30" >Wow! 30%💗</option>
+                <option value="0.20">Good Service! 20%💙</option>
+                <option value="0.10">It was OK! 10% 😃</option>
+                <option  value="0.00" selected>No Tip!🙅</option>
             </select>
             <button id="btn">Calculate</button>
         </form>
@@ -57,6 +57,7 @@
     </div>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <script src="script.js"></script>
 </body>
